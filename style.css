@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#calculator{
+    background-color: grey;
+    display: flex;
+    width: 330px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.digit{
+    border-radius: 0;
+    padding: 5px;
+    width: 110px;
+    border: solid grey 1px;
+    height: 40px;
+}
+#display{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid black;
+    border-radius: 5px;
+}
+#add, #subtract, #multiply, #divide, #equals{
+    width: 44px;
+}
